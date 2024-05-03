@@ -1,0 +1,8 @@
+<h1><%= @author.name %></h1>
+
+<p>Date of Birth: <%= @author.dob %></p>
+<p>Email: <%= @author.email %></p>
+<p>Phone Number: <%= @author.phone_number %></p>
+
+<%= link_to "Edit", edit_author_path(@author) %> |
+<%= link_to "Back", authors_path %>
